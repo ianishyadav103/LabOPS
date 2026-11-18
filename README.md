@@ -15,8 +15,7 @@ LabOPS started as an AI-assisted prototype and is being iteratively customized, 
 ## 🏗️ How It Works
 
 1. **Client Agent:** Runs quietly on each lab PC to read hardware sensors and listen for remote installation commands.
-2. **Central Server (FastAPI):** Receives live WebSocket telemetry streams, calculates device health scores, and coordinates deployments.
-3. **Database Layer:** Stores registered lab assets, user roles, telemetry logs, and maintenance tickets.
+2. **Central Server (FastAPI):** Receives live WebSocket telemetry streams, shows device health scores, and perform installations & custom command execution on clients.
 
 ## 🔮 Future Features
 
